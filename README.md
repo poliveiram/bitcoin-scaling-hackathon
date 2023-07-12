@@ -2,7 +2,7 @@
 Repository for "Rootstock: Bitcoin Scaling Hackathon" submissions
 
 ![home](https://user-images.githubusercontent.com/71399144/215202335-74dc2739-b312-43d3-a1a7-dfd835fb9f09.png)
-https://github.com/doiim/p2pix
+🌐 https://github.com/doiim/p2pix
 
 ## A trustless p2p solution for exchanging FIAT to ERC20 tokens.
 
@@ -50,13 +50,34 @@ https://docs.google.com/document/d/104hX6RFC9miXHWcHdygoxlNpXL3ct4X9DoX63ECyc8U/
 ––––––––––––––––
 
 Solidity smart contract:
-
 https://mumbai.polygonscan.com/address/0x08Cd9879D69693E5162B3A3eD24DdAb9118d0f0D
 
 Cartesi smart contracts:
+- https://mumbai.polygonscan.com/address/0x08cd9879d69693e5162b3a3ed24ddab9118d0f0d
+- https://goerli.etherscan.io/address/0xdd08d2ada2208815238ebe97d41ff219ea129d39
+- https://www.figma.com/file/oIaOVWGTvicMysidMKxQgb/p2pix?node-id=23%3A2
 
-https://mumbai.polygonscan.com/address/0x08cd9879d69693e5162b3a3ed24ddab9118d0f0d
+Figma files:
+- Buyer https://www.figma.com/file/Zft4e0u5HUiWGXJUCSEi7q/p2pix-doiim?node-id=1162-737&t=xKeEMPp6YgwA5vIh-0
+- Seller https://www.figma.com/file/Zft4e0u5HUiWGXJUCSEi7q/p2pix-doiim?node-id=1237-687&t=xKeEMPp6YgwA5vIh-0
+- Managing transactions https://www.figma.com/file/Zft4e0u5HUiWGXJUCSEi7q/p2pix-doiim?node-id=1413-687&t=xGbEnGVXdggsTb0L-0
 
-https://goerli.etherscan.io/address/0xdd08d2ada2208815238ebe97d41ff219ea129d39
+FAQ:
+https://docs.google.com/document/d/1dgjZ0aYuW_tIeOX26aV6ZR-OYniJl8txZy4SgeIKUu0/edit?usp=sharing
 
-https://www.figma.com/file/oIaOVWGTvicMysidMKxQgb/p2pix?node-id=23%3A2
+Sandbox:
+https://p2pix-staging.vercel.app/
+
+Pitches:
+[PT-BR]
+- Hackathon Ethereum São Paulo (September/2022) https://docs.google.com/presentation/d/18nOjzByU8nN0BntVbz5qqg5w1tN7pj1mMG_MySzWWpM/edit?usp=sharing
+- Lift Learning for Brazilian Central Bank (November/2022) https://docs.google.com/presentation/d/1nf_9rvv2MsaB3kw3VlZm8cHbwujkVvfskHHlUsC-uI0/edit?usp=sharing
+  - https://www.bcb.gov.br/en/pressdetail/2298/nota
+  - https://www.bcb.gov.br/en/pressdetail/2262/nota
+- Acceleration Next for Fenasbac 
+  - Pitch (March/2023) https://docs.google.com/presentation/d/1x0GwuMdfKFC6siXjoOGgs5_QGva_7y5tWtm6GLVbVZM/edit?usp=sharing
+  - Demo day (June/2023) https://docs.google.com/presentation/d/1j_Y2-0yTzMtV3P0lSYt6ux5YD0WdeH4PYtdMUCgvSFo/edit?usp=sharing
+    - https://nextfintech.com.br/en/
+ 
+[EN-US]
+Rootstock: Bitcoin Scaling Hackathon (July/2023) https://docs.google.com/presentation/d/1ns-rXz0Vc_LltUZCZop_atN60TUjlBIt_W3KSSQcDDY/edit?usp=sharing
