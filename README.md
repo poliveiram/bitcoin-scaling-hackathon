@@ -1,5 +1,5 @@
 # p2pix @ Rootstock: Bitcoin Scaling Hackathon
-Repository for "Rootstock: Bitcoin Scaling Hackathon" submissions
+Personal copy for the repository of "Rootstock: Bitcoin Scaling Hackathon" submissions
 
 ![home](https://user-images.githubusercontent.com/71399144/215202335-74dc2739-b312-43d3-a1a7-dfd835fb9f09.png)
 🌐 https://github.com/doiim/p2pix
