@@ -10,11 +10,11 @@ Personal copy for the repository of "Rootstock: Bitcoin Scaling Hackathon" submi
 
 ### In short.
 
-The roadmap ideally would be accomplished through improvements to the PIX API, the smart contract receive and releases its funds based on a transaction proof that is generated every time a PIX payment's transaction receipt is validated.
+The roadmap ideally would be accomplished through improvements to the PIX API, the smart contract receives and releases its funds based on a transaction proof that is generated every time a PIX payment's transaction receipt is validated.
 
 ![p2pix_explorer](https://user-images.githubusercontent.com/71399144/202617017-3d04fa8e-f241-4a53-a2af-1b1b04a48424.png)
 
-For example, in case you want to sell **100 USDC** for the price of 500 BRL, you create an order that **locks it into the contract**. once the user buying the USDC accepts the order it  **saves the buyer address** into the contract and generates a transaction qrCode with the specified value (500 BRL) to the PIX key detailed on the smart contract. Then it allows the necessary transaction to be confirmed and finally send the **Id proof** to the smart contract which in return **releases the fund to the specified buyer address**.
+For example, in case you want to sell **100 USDC** for the price of 500 BRL, you create an order that **locks it into the contract**. once the user buying the USDC accepts the order it  **saves the buyer address** into the contract and generates a transaction qrCode with the specified value (500 BRL) to the PIX key detailed on the smart contract. Then it allows the necessary transaction to be confirmed and finally sends the **Id proof** to the smart contract which in return **releases the fund to the specified buyer address**.
 
 
 ## How it works?
@@ -28,11 +28,11 @@ For example, in case you want to sell **100 USDC** for the price of 500 BRL, you
 LocalBitcoins used to be, and currently still is in certain places such as in Venezuela, one of the main crypto providers where a substantial amount of volume flows through the parallel economy and revitalizes gross output during downturns.
 
 
-If there is a lack of crypto infrastructure in a country or it is constrained by government will, capital flow naturally is driven to informal p2p and OTC methods. These transactions are inherently less efficient as there is a lot of friction involved in exchanging cash in person, besides the risk involved in having the custody of physical assets there’s also a logistical overhead in operating the currencies which are been traded. Even if the activity is carried out online you still need a third party to escrow the transaction and be available to be called upon in the case of a dispute. So finality is inherently uncertain, especially time wise.
+If there is a lack of crypto infrastructure in a country or it is constrained by government will, capital flow naturally is driven to informal p2p and OTC methods. These transactions are inherently less efficient as there is a lot of friction involved in exchanging cash in person, besides the risk involved in having the custody of physical assets there’s also a logistical overhead in operating the currencies which are been traded. Even if the activity is carried out online you still need a third party to escrow the transaction and be available to be called upon in the case of a dispute. So finality is inherently uncertain, especially time-wise.
 
 ![gerenciar](https://user-images.githubusercontent.com/71399144/215202584-ab21e93d-8412-4d96-aa49-6a639144a3b9.png)
 
-This solution is built with the intention of being ported to other payments systems such as what is intended to be achieved with FEDnow, as well with other legacy systems which have the minimum infrastructure necessary to generate the proofs on a receipt. Potentially if CBDC are open to be used by the general public it becomes another venue where settlement of swaps can be done on a trustless manner, where the only centralization point is the currency issuer itself, therefore an inherent risk which can not be mitigated 
+This solution is built with the intention of being ported to other payments systems such as what is intended to be achieved with FEDnow, as well as with other legacy systems which have the minimum infrastructure necessary to generate the proofs on a receipt. Potentially if CBDC are open to being used by the general public it becomes another venue where settlement of swaps can be done in a trustless manner, where the only centralization point is the currency issuer itself, therefore an inherent risk that can not be mitigated 
 
 
 The protocol requires the token seller to accept some public key as being responsible for signing valid transactions. Ideally, central banks should be providing the payer with a signed message attesting to the successful fiat transfer. This may come true in Brazil with new PIX APIs or in the design of CBDCs.
@@ -69,6 +69,7 @@ Sandbox:
 https://p2pix-staging.vercel.app/
 
 Pitches:
+
 [PT-BR]
 - Hackathon Ethereum São Paulo (September/2022) https://docs.google.com/presentation/d/18nOjzByU8nN0BntVbz5qqg5w1tN7pj1mMG_MySzWWpM/edit?usp=sharing
 - Lift Learning for Brazilian Central Bank (November/2022) https://docs.google.com/presentation/d/1nf_9rvv2MsaB3kw3VlZm8cHbwujkVvfskHHlUsC-uI0/edit?usp=sharing
@@ -80,4 +81,5 @@ Pitches:
     - https://nextfintech.com.br/en/
  
 [EN-US]
+
 Rootstock: Bitcoin Scaling Hackathon (July/2023) https://docs.google.com/presentation/d/1ns-rXz0Vc_LltUZCZop_atN60TUjlBIt_W3KSSQcDDY/edit?usp=sharing
